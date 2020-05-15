@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
-const token = "NjY4ODY5NDU0MTQ2MzA2MDc1.XiXj4w.eiVyxVKwtvp97AQDW4qYhCDcS10";
+const token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 bot.login(token);
 
 bot.on("ready", () => {
@@ -9,7 +9,7 @@ bot.on("ready", () => {
 
 bot.on("message", msg => {
     if(msg.channel.type == "dm"){
-        bot.guilds.get("667038702664548372").channels.get("668879774810112012").send(msg.content)
+        bot.guilds.get("xxxxxxxxxxxxxxxxxx").channels.get("xxxxxxxxxxxxxxxxxx").send(msg.content)
     }
 })
 bot.on("error",err=>{
